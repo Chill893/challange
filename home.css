@@ -1,0 +1,130 @@
+/* nav bar */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+nav{
+     display: flex;
+     justify-content: space-between;
+     max-width: 1280px;
+     margin: 16px auto;
+     align-items: center;
+     flex-wrap: wrap;
+}
+nav #navbar{
+     display: flex;
+}
+nav #navbar ul{
+     display: flex;
+     list-style: none;
+     margin: 0 20px;
+     padding: 0 20px;
+     align-items: center;
+}
+nav #navbar ul li{
+     margin: 0 20px;
+}
+nav #navbar a{
+     text-decoration: none;
+     background-color: rgba(245, 138, 7, 0.1);
+     color: #F58A07;
+     border-radius: 31px;
+     padding: 18px 30px 17px 29px;
+}
+
+
+/* head section */
+
+
+header #first{
+     display: flex;
+     background-color: #DCEAF5;
+     justify-content: space-between;
+}
+#head-sec{
+     display: flex;
+}
+header section #head-text{
+     display: flex;
+     flex-direction: column;
+     padding-top: 117px;
+     padding-left: 325px;
+}
+
+section h1{
+     font-size: 64px;
+     color: rgba(29, 52, 68, 1);
+}
+section #text p{
+     font-size: 18px;
+     color: rgba(91, 91, 91, 1);
+}
+section a{
+     text-decoration: none;  
+     color: rgba(29, 52, 68, 1);
+}
+#See{
+     background-color: #F58A07;
+     border-radius: 27px;
+     color: rgba(255, 255, 255, 1);
+     padding: 19px 32px;
+     margin-right: 40px;
+}
+#atag {
+     margin-top: 32px;
+}
+
+#worked{
+     margin-top: 56px;
+     color: rgba(57, 65, 73, 0.5) ;
+}
+#logos{
+     display: flex;
+     padding-left: 325px;
+     margin-top: 18px;
+     /* justify-content: center; */
+     gap: 80px;
+}
+#pro{
+     flex: 1 ;
+     margin-top: 110px;
+     margin-bottom: 0px;
+}
+
+.text-container {
+     flex: 1;
+}
+
+
+/* second section */
+#intro {
+     width: 735px;
+     height: 112px;
+     margin: 96px 865px 181px 320px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+}
+#intro h3{
+     font-size: 48px;
+     color: rgba(29, 52, 68, 1);
+}
+#intro p {
+     font-size: 18px;
+     color: 
+     rgba(91, 91, 91, 1);   
+}
+
+#learn-more {
+     display: flex;
+     justify-content: space-around;
+     width: 1280px;
+     margin-right: 320px;
+     margin-left: 320px;
+}
+#learn-more div img {
+     border-radius: 20px;
+
+}
