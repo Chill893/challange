@@ -99,15 +99,16 @@ section a{
 
 
 /* second section */
+#second {
+     margin: 0px auto;
+     max-width: 1280px;
+}
 #intro {
-     width: 735px;
-     height: 112px;
-     margin: 96px 865px 181px 320px;
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
 }
-#intro h3{
+#intro h2{
      font-size: 48px;
      color: rgba(29, 52, 68, 1);
 }
@@ -120,11 +121,178 @@ section a{
 #learn-more {
      display: flex;
      justify-content: space-around;
-     width: 1280px;
-     margin-right: 320px;
-     margin-left: 320px;
+     /* width: 1280px; */
+     margin: 64px auto;
+}
+.post {
+     flex: 1;
+     justify-content: space-between;
 }
 #learn-more div img {
      border-radius: 20px;
+}
 
+/* third section */
+
+#third {
+     background-color: #EDF7FF;
+     display: flex;
+     flex-direction: column;
+}
+#third #text {
+     display: flex;
+     max-width: 1280px;
+     margin: 0px auto;
+     padding-top: 95px;
+}
+#third #text div h3 {
+     width: 619px;
+     font-size: 36px;
+     padding-left: 40px;
+}
+#third #text div p {
+     width: 620px;
+     font-size: 18px;
+}
+#icons {
+     display: flex;
+     width: 1280px;
+     margin: 96px auto;
+}
+#icons div {
+     background-color: white;
+     border-radius: 20px;   
+     justify-content: space-around;
+     margin: 20px;
+     margin-right: 40px ;
+}
+
+/* fourth section */
+#fourth {
+     display: flex;
+     flex: 1;
+     max-width: 640px;
+     margin: 100px 500px;
+     /* positi on: absolute; */
+}
+
+#main-content {
+     display: flex;
+     flex-direction: column;
+     margin-right: 50px;
+     padding-top: 50px;
+}
+#main-content p{
+     color: #5B5B5B;
+}
+#a-content {
+     display: block;
+}
+#a-content h2 {
+     font-size: 48px;
+     padding-bottom: 32px;
+}
+#a-content p {
+     font-size: 18px;
+}
+#b-content {
+     display: flex;
+}
+#b-content h3 {
+     color: #F58A07;
+     font-size: 36px;
+     padding-top: 48px;
+     padding-bottom: 16px;
+
+}
+#b-content h4 {
+     font-size: 24px;
+     padding-bottom: 16px;
+}
+#b-content p{
+     padding: 16px 26px;
+}
+#img{
+     position: relative;
+     
+}
+#abc {
+     background-image: url(/images/about-image.png);
+     border-radius: 20px;
+     width: 640px;
+     height: 670px;
+     position: absolute;
+}
+#blended {
+     position: absolute;
+     background: #F58A07;
+     width: 153px;
+     height: 670px;
+     mix-blend-mode: multiply;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px;
+   
+}
+
+/* fifth section */
+
+#fifth {
+     width: 1280px;
+     /* display: flex; */
+     margin: 0px auto;
+     background-color: #edf7ff;
+     border-radius: 20px;
+}
+#fifth nav {
+     display: flex;
+     justify-content: space-between;
+}
+#fifth nav ul{    
+     display: flex;
+     list-style: none;
+     margin: 56px 20px;
+     padding: 0 20px;
+     align-items: center;
+     justify-content: space-between;
+}
+.listitem {
+     border: #a8bccc solid;
+     border-radius: 30px;
+     padding: 8px 24px;
+     margin-right: 24px;
+}
+#listitem {
+     background-color: white;
+     border-radius: 30px;
+     padding: 8px 24px;
+     margin-right: 24px;
+     color: #f58a07;
+}
+#content5 {
+     display: flex;
+     justify-content: space-around;
+     padding: 0 auto;
+}
+#text5 {
+     flex: 1;
+}
+#text5 h1 {
+     font-size: 48px;
+     /* margin-top: 50px; */
+}
+#blended-image {
+     flex: 1;
+     position: relative;
+}
+#img-1 {
+     position: absolute;
+     background-image: url(/images/team.png);
+     width: 472px;
+     height: 466px;
+}
+#img-shape {
+     position: absolute;
+     width: 120px;
+     background: #f58a07;
+     mix-blend-mode: multiply;
 }
