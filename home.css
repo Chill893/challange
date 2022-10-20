@@ -4,6 +4,9 @@
      padding: 0;
      box-sizing: border-box;
 }
+.flex {
+     flex: 1;
+}
 
 nav{
      display: flex;
@@ -93,11 +96,6 @@ section a{
      margin-bottom: 0px;
 }
 
-.text-container {
-     flex: 1;
-}
-
-
 /* second section */
 #second {
      margin: 0px auto;
@@ -125,7 +123,6 @@ section a{
      margin: 64px auto;
 }
 .post {
-     flex: 1;
      justify-content: space-between;
 }
 #learn-more div img {
@@ -170,10 +167,8 @@ section a{
 /* fourth section */
 #fourth {
      display: flex;
-     flex: 1;
-     max-width: 640px;
-     margin: 100px 500px;
-     /* positi on: absolute; */
+     max-width: 1280px;
+     margin: 100px auto;
 }
 
 #main-content {
@@ -214,7 +209,6 @@ section a{
 }
 #img{
      position: relative;
-     
 }
 #abc {
      background-image: url(/images/about-image.png);
@@ -238,10 +232,12 @@ section a{
 
 #fifth {
      width: 1280px;
-     /* display: flex; */
      margin: 0px auto;
      background-color: #edf7ff;
      border-radius: 20px;
+}
+#fifth-main {
+     padding: 0px 48px;
 }
 #fifth nav {
      display: flex;
@@ -256,7 +252,7 @@ section a{
      justify-content: space-between;
 }
 .listitem {
-     border: #a8bccc solid;
+     border: #a8bccc solid 1px;
      border-radius: 30px;
      padding: 8px 24px;
      margin-right: 24px;
@@ -268,21 +264,24 @@ section a{
      margin-right: 24px;
      color: #f58a07;
 }
+#Bussi {
+     color: #F58A07;
+}
 #content5 {
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      padding: 0 auto;
-}
-#text5 {
-     flex: 1;
-}
+} 
 #text5 h1 {
      font-size: 48px;
-     /* margin-top: 50px; */
+     padding-bottom: 25px;
 }
 #blended-image {
-     flex: 1;
      position: relative;
+     width: 472px;
+     height: 466px;
+     margin-left: 200px;
+     margin-bottom: 48px;
 }
 #img-1 {
      position: absolute;
@@ -293,6 +292,146 @@ section a{
 #img-shape {
      position: absolute;
      width: 120px;
+     height: 466px;
+     border-radius: 20px 0px 0px 20px;
      background: #f58a07;
      mix-blend-mode: multiply;
+}
+
+
+/* sixth section */
+
+#sixth {
+     display: flex;
+}
+#b6 {
+     background-color:  rgba(245, 138, 7, 1);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding-left: 120px;
+}
+#b6 h1 {
+     color: white;
+     font-size: 48px;
+}
+#b6 a {
+     color: #F58A07;
+     border-radius: 30px;
+     background-color: white;
+     margin-top: 40px;
+     padding: 20px 32px;
+}
+
+/* seventh section  */
+
+#seventh {
+     display: flex;
+     max-width: 1280px;
+     margin: 0px auto;
+}
+#a7 h1 {
+     font-size: 48px;
+     margin-top: 78px;
+     color: #0D1317;
+}
+#a7 p {
+     font-size: 18px;
+     margin-top: 24px;
+     color: #5B5B5B;
+}
+
+
+/* eigth section  */
+
+#eight {
+     background: #DCEAF5;
+     width: 100%;
+}
+#main8 {
+     max-width: 1280px;
+     margin: 96px auto;
+     background-color: #dceaf5;
+}
+#a8 {
+     font-size: 48px;
+     color: black;
+}
+#b8 {
+     margin-top: 64px;
+     /* background-color: white; */
+}
+
+#b8{
+     display: flex;
+}
+.huree{
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+#b8 h3 {
+     margin: 32px;
+     font-size: 24px;
+}
+#b8 p{
+     color: #5B5B5B;
+     font-size: 16px;
+     margin: 20px 32px;
+}
+#b8 a {
+     color: #f58a07;
+     margin: 32px;
+}
+
+/* footer section */
+
+footer {
+     background-color: #063255;
+}
+#footer-top {
+     max-width: 1280px;
+     margin: 80px auto;
+     padding-top: 80px;
+     display: flex;
+     justify-content: space-evenly;
+}
+#footer-left h1 {
+     color: white;
+     font-size: 36px;
+     margin: 32px 0px;
+}
+#footer-mid {
+     display: flex;
+     flex-direction: row;
+}
+#footer-mid h4{
+     font-size: 18px;
+     color: white;
+     margin-bottom: 24px;
+}
+#footer-mid li{
+     color: white;
+     list-style: none ;
+     margin: 16px;
+}
+#footer-bottom {
+     max-width: 1280px;
+     display: flex;
+     margin: 0px auto;
+     justify-content:space-between ;
+}
+span {
+     color: white;
+}
+#bott-b {
+     display: flex;
+}
+#bott-b ul {
+     display: flex;
+     list-style: none;
+     justify-content: space-between;
+}
+#bott-b a {
+     color: white;
 }
