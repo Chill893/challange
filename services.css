@@ -78,3 +78,35 @@ nav #navbar a{
     mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
+
+/* second section  */
+
+#second {
+    display: flex;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+#a2 {
+    position: relative;
+}
+#image2 {
+    position: absolute;
+    background-image: url(/images/Image\ \(2\).png);
+    width: 620px;
+    height: 550px;
+}
+#shape2 {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+#b2 {
+    
+}
+#b2 h1 {
+    font-size: 48px;
+    color: #0D1317;
+}
