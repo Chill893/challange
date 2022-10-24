@@ -352,7 +352,7 @@ section a{
      margin: 0px auto;
 }
 #a6 {
-     background: url(/images/experience-image.png) no-repeat;
+     background: url(/images/experience-image.png)  no-repeat;
 }
 #b6 {
      background-color:  rgba(245, 138, 7, 1);
@@ -362,6 +362,7 @@ section a{
      align-items: flex-start;
      padding-left: 120px;
      height: 518px;
+     width: 50%;
 }
 #b6 h1 {
      color: white;
