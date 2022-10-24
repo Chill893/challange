@@ -134,20 +134,25 @@ nav #navbar a{
 
 #third {
     max-width: 1280px;
-    margin: 200px auto;
+    margin: 0px auto;
     display: flex;
 }
 #a3 {
 
 }
 #a3 h1 {
-
+    margin-top: 285px;
+    font-size: 48px;
+    color: #0D1317;
+    margin-right: 358px;
 }
 #a3 p {
-
+    color: #5B5B5B;
+    margin-right: 80px;
 }
 #b3 {
     position: relative;
+    margin-top: 128px;
 }
 #image3 {
     background-image: url(/images/Image\ \(3\).png);
@@ -162,5 +167,6 @@ nav #navbar a{
     background: #F58A07;
     mix-blend-mode: multiply;
     border-radius: 20px;
-    right: -48px;
+    left: 573px;
+    top: 272px;
 }
