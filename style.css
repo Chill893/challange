@@ -241,7 +241,7 @@ section a{
      position: relative;
 }
 #abc {
-     background-image: url(/images/about-image.png);
+     background-image: url(images/about-image.png);
      border-radius: 20px;
      width: 640px;
      height: 670px;
@@ -327,7 +327,7 @@ section a{
 }
 #img-1 {
      position: absolute;
-     background-image: url(/images/team.png);
+     background-image: url(images/team.png);
      width: 472px;
      height: 466px;
 }
@@ -418,7 +418,7 @@ section a{
 }
 #video {
      position: relative;
-     background-image: url(/images/video-image.png);
+     background-image: url(images/video-image.png);
      width: 620px;
      height: 501px;
 }
