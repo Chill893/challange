@@ -1,7 +1,8 @@
+/* nav bar */
 *{
      margin: 0;
      padding: 0;
-     /* box-sizing: border-box; */
+     box-sizing: border-box;
 }
 .flex {
      flex: 1;
@@ -25,16 +26,20 @@ nav #navbar ul{
      padding: 0 20px;
      align-items: center;
 }
-nav #navbar ul li{
+nav #navbar li a{
      margin: 0 20px;
+     text-decoration: none;
+     color: #0D1317;
 }
-nav #navbar a{
+#call{
      text-decoration: none;
      background-color: rgba(245, 138, 7, 0.1);
      color: #F58A07;
      border-radius: 31px;
      padding: 18px 30px 17px 29px;
 }
+
+
 /* first section  */
 #first {
      max-width: 1086px;

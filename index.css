@@ -26,10 +26,12 @@ nav #navbar ul{
      padding: 0 20px;
      align-items: center;
 }
-nav #navbar ul li{
+nav #navbar li a{
      margin: 0 20px;
+     text-decoration: none;
+     color: #0D1317;
 }
-nav #navbar a{
+#call{
      text-decoration: none;
      background-color: rgba(245, 138, 7, 0.1);
      color: #F58A07;
@@ -241,7 +243,7 @@ section a{
      position: relative;
 }
 #abc {
-     background-image: url(/images/about-image.png);
+     background-image: url(images/about-image.png);
      border-radius: 20px;
      width: 640px;
      height: 670px;
@@ -327,7 +329,7 @@ section a{
 }
 #img-1 {
      position: absolute;
-     background-image: url(/images/team.png);
+     background-image: url(images/team.png);
      width: 472px;
      height: 466px;
 }
@@ -418,7 +420,7 @@ section a{
 }
 #video {
      position: relative;
-     background-image: url(/images/video-image.png);
+     background-image: url(images/video-image.png);
      width: 620px;
      height: 501px;
 }
